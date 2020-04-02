@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//iPhone OS 12.0.1//EN
+N:Kirk;Taya;;;
+FN: Taya  Kirk 
+ORG:Sister;
+item1.EMAIL;type=INTERNET;type=pref:tayakirk@icloud.com
+item1.X-ABLabel:iCloud
+TEL;type=pref:+61481083942
+END:VCARD

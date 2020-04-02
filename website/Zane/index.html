@@ -1,0 +1,135 @@
+<!DOCTYPE html><html lang="en">
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Zane Kirk</title>
+    <link rel="stylesheet" href="../../cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="../../use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src="../../code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="../../unpkg.com/magic-grid%403.2.4/dist/magic-grid.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+  <link rel="icon" href="" type="image/png"></head>
+
+  <body>
+    <div id="loading">
+      <div id="spinner"></div>
+    </div>
+    <div id="profile">
+      <div id="profile_img" style="background: url(/Zane/IMG_5679.JPG) center;"></div>
+      <div id="username"><span style="display:block;">Zane Kirk</span></div>
+      <div id="userbio" style="display: none;">undefined</div>
+      <div id="about">
+                <span style="display:none;"><i class="fas fa-users"></i> &nbsp; null</span>
+                <span style="display:none;"><i class="fas fa-envelope"></i> &nbsp; null</span>
+                <span style="display:block;"><i class="fas fa-link"></i> &nbsp; <a href="https://www.oarinspired.com/">https://www.oarinspired.com/</a></span>
+                <span style="display:block;"><i class="fas fa-map-marker-alt"></i> &nbsp;&nbsp; Virginia</span>
+                <span style="display:block;"><i class="fas fa-user-tie"></i> &nbsp;&nbsp; UQ BA</span>
+                </div>
+    </div>
+    <div id="display">
+      <div id="work">
+        <h1>Socials.</h1>
+        <div class="projects" id="work_section">
+                        <a href="https://www.facebook.com/zane.kirk.98" target="_blank">
+                        <section>
+                            <div class="section_title">Facebook</div>
+                              </section>
+                        </a>
+                            
+             <a href="/Zane/ZaneKirk.vcf" target="_blank">
+                        <section>
+                            <div class="section_title">Add to Contacts</div>
+                        </section>
+                        </a>
+                      
+            
+                   <a href="https://www.snapchat.com/add/zane_kirk" target="_blank">
+                        <section>
+                            <div class="section_title">Snapchat</div>
+                        </section>
+                        </a>
+            
+                        <a href="https://www.instagram.com/zane__kirk/?hl=en" target="_blank">
+                        <section>
+                            <div class="section_title">Instagram</div>
+                        </section>
+                        </a>
+          
+    
+            
+            <a href="https://open.spotify.com/user/zane_kirk?si=NU_vklUvQTe6TriCLWRTCA" target="_blank">
+                        <section>
+                            <div class="section_title">Spotify</div>
+                        </section>
+                        </a>
+            
+            <a href="sms:0431326914" target="_blank">
+                        <section>
+                            <div class="section_title">Text</div>
+                        </section>
+                        </a>
+            
+            <a href="mailto:Zane@oarinspired.com.au" target="_blank">
+                        <section>
+                            <div class="section_title">Mail</div>
+                        </section>
+                        </a>
+           
+           
+            
+            
+            
+            
+          
+          
+          
+          
+          
+          </div>
+      </div>
+     
+    </div>
+    <script type="text/javascript">
+      setTimeout(function() {
+        document.getElementById("loading").classList.add("animated");
+        document.getElementById("loading").classList.add("fadeOut");
+        setTimeout(function() {
+          document.getElementById("loading").classList.remove("animated");
+          document.getElementById("loading").classList.remove("fadeOut");
+          document.getElementById("loading").style.display = "none";
+        }, 800);
+      }, 1500);
+    </script>
+
+    <script>
+      const magicProjectsGrid = new MagicGrid({
+        container: "#work_section",
+        animate: false,
+        gutter: 30, // default gutter size
+        static: true,
+        useMin: false,
+        maxColumns: 2,
+        useTransform: true
+      });
+
+      const magicForksGrid = new MagicGrid({
+        container: "#forks_section",
+        animate: false,
+        gutter: 30, // default gutter size
+        static: true,
+        useMin: false,
+        maxColumns: 2,
+        useTransform: true
+      });
+
+      $("document").ready(() => {
+        magicProjectsGrid.listen();
+        magicForksGrid.listen();
+      });
+    </script>
+  
+
+</body>
+</html>

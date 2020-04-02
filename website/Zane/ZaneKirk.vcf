@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//iPhone OS 12.0.1//EN
+N:Kirk;Zane;;;
+FN: Zane  Kirk 
+ORG:Oar Inspired;
+EMAIL;type=INTERNET;type=WORK;type=pref:zane@oarinspired.com.au
+EMAIL;type=INTERNET;type=HOME:zane.kirk@tmpc.com.au
+item1.EMAIL;type=INTERNET:z.kirk@uqconnect.edu.au
+item1.X-ABLabel:Uni
+TEL;type=CELL;type=VOICE;type=pref:0431 326 914
+END:VCARD
